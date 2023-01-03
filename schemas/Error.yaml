@@ -8,3 +8,6 @@ properties:
     format: int32
   message:
     type: string
+examples:
+  - code: 0
+    message: string

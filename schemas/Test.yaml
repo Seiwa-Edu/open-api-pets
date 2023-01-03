@@ -1,0 +1,13 @@
+title: Test
+x-stoplight:
+  id: vp19l3y5w7qtx
+type: object
+properties:
+  id:
+    type: string
+  name:
+    type: string
+examples:
+  - id: string
+    name: string
+x-extension-1: null

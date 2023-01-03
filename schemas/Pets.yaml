@@ -1,3 +1,8 @@
 type: array
 items:
-  $ref: "./Pet.yaml"
+  $ref: ./Pet.yaml
+examples:
+  - - id: 0
+      name: string
+      tag: string
+x-extension-1: null

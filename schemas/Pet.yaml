@@ -10,3 +10,7 @@ properties:
     type: string
   tag:
     type: string
+examples:
+  - id: 0
+    name: string
+    tag: string
