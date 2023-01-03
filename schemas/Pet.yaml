@@ -8,5 +8,5 @@ properties:
     format: int64
   name:
     type: string
-    tag:
+  tag:
     type: string

@@ -6,11 +6,11 @@ get:
   parameters:
     - name: limit
       in: query
-     description: How many items to return at one time (max 100)
-     required: false
-     schema:
-   type: integer
-     format: int32
+      description: How many items to return at one time (max 100)
+      required: false
+      schema:
+        type: integer
+        format: int32
   responses:
     '200':
       description: A paged array of pets
@@ -18,9 +18,9 @@ get:
         x-next:
           description: A link to the next page of responses
           schema:
-          type: string
+            type: string
       content:
-        application/json:
+        application/json:    
           schema:
             $ref: "../schemas/Pets.yaml"
     default:
@@ -39,7 +39,7 @@ post:
       description: Null response
     default:
       description: unexpected error
-    content:
-      application/json:
-        schema:
-          $ref: "../schemas/Error.yaml"
+      content:
+        application/json:
+          schema:
+            $ref: "../schemas/Error.yaml"
