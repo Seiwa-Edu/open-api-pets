@@ -1,4 +1,4 @@
 # open-api-pets
 https://garafu.blogspot.com/2020/06/multi-file-openapi.html
 
-modelだけ分割
+path, model 両方分割
